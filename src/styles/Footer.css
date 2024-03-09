@@ -1,0 +1,94 @@
+.footer-container{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+hr{
+    color: white;
+    height: 100%;
+}
+.footer-first-section, .footer-second-section, .footer-third-section{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-first-section{
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+.footer-first-section-icon-container{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-first-section-icon-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-first-section-icon-container ul li{
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+.footer-download-container{
+    margin-top: 2rem;
+}
+
+/* *********Second Section***********/
+.footer-second-section{
+    flex-direction: row;
+}
+
+.footer-second-section div{
+    margin-left:2rem;
+}
+
+.footer-second-section div li{
+    list-style: none;
+    margin-top: 1rem;
+}
+.footer-second-section div li:hover{
+   cursor: pointer;
+   color: blueviolet;
+}
+
+.footer-second-section div h2{
+    text-decoration: blueviolet underline ;
+}
+
+
+/* ************Third Part****************** */
+.footer-third-section{
+    align-items: flex-start;
+    padding-left: 1rem;
+}
+.footer-third-section h2{
+    margin-bottom: 1rem;
+}
+.footer-third-section form{
+    width: 80%;
+    height: 3rem;
+}
+.footer-third-section form input{
+    padding: 1rem 5rem 1rem 1rem;
+    margin-right: 2rem;
+    border-radius: 0.8rem;
+    border: 2px solid blueviolet;
+}
+.footer-third-section form button{
+    padding: 1rem 1.5rem;
+    border-radius: 0.8rem;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+}
